@@ -5,15 +5,15 @@
 #   password: '%ENV(DNAC_PASSWORD)'
 #
 dnac:
-  base_url: https://198.18.129.100
+  base_url: https://sandboxdnac.cisco.com
   # Note: the scripts have been tested with 2.2.3.3. Earlier versions might show issues
-  version: 2.2.3.3
-  username: cicd
-  password: '%ENV{DNAC_PASSWORD}'
+  version: 2.3.3.6
+  username: devnetuser
+  password: '%ENV{Cisco123!}'
   verify: False
 
 # DNAC project we maintain
-template_project: CICD
+template_project: CICDTest
 # do not capture latest diff in DNAC template comments
 show_diffs: False
 
